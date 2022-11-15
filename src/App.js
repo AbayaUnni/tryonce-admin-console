@@ -1,9 +1,10 @@
 import React from "react";
+import DrawerComponent from "./Components/Drawer";
 
 export default function App() {
     return (
         <div>
-            <h1>Tryonce Admin console ReactJS app</h1>
+            <DrawerComponent/>
         </div>
     );
 }
